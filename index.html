@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef3f8;
+            margin: 0;
+        }
+
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #2563eb;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+            display: inline-block;
+            width: 250px;
+            vertical-align: top;
+        }
+
+        .card h3 {
+            color: #1e3a8a;
+        }
+
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1e40af;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Student Portal</h1>
+    <p>Welcome to East Point College</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Profile</a>
+    <a href="#">Courses</a>
+    <a href="#">Results</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>Dashboard</h2>
+
+    <div class="card">
+        <h3>Student Profile</h3>
+        <p><b>Name:</b> Nihar Gowda</p>
+        <p><b>USN:</b> 1EP23CS109</p>
+        <p><b>Branch:</b> Computer Science</p>
+        <button>View Profile</button>
+    </div>
+
+    <div class="card">
+        <h3>Courses</h3>
+        <p>Java Programming</p>
+        <p>DBMS</p>
+        <p>Cloud Computing</p>
+        <button>View Courses</button>
+    </div>
+
+    <div class="card">
+        <h3>Results</h3>
+        <p>Semester: 4th</p>
+        <p>Status: Available</p>
+        <button>Check Results</button>
+    </div>
+
+    <div class="card">
+        <h3>Announcements</h3>
+        <p>Internal exams start next week.</p>
+        <p>Submit assignments before Friday.</p>
+        <button>Read More</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Student Portal. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
